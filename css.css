@@ -1,0 +1,57 @@
+header {
+    width: 1440px;
+    height: 100px;
+    border: 5px solid rgb(88, 139, 147);
+    padding: 5px solid rgb(88, 139, 147);
+    background-color:rgb(88, 139, 147);
+    align-self: center;
+    position: relative;
+  }
+
+  #avatar {
+      position: relative;
+      bottom: 75px;
+      left:1325px;
+  }
+
+  h1 {
+    font-family: bahnschrift;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 25px
+  }
+
+  h2 {font-family: bahnschrift;font-size: 19px; text-align: center}
+  h3 {font-family: bahnschrift;font-size: 16px}
+  h4 {font-family: bahnschrift;font-size: 13px}
+  section p {font-family: bahnschrift;font-size:11px}
+  li {font-family: bahnschrift;font-size: 11px}
+
+  #exp, #skill, #school {
+    border:5px solid grey;
+    border-radius: 25px;
+  }
+
+  #exp {
+    width: 400px;
+    height: 450px;
+    position: relative;
+
+  }
+
+  #skill {
+    width: 400px;
+    height: 450px;
+    position: relative;
+    float: center;
+
+  }
+
+  #school {
+    width: 400px;
+    height: 450px;
+    position: relative;
+  }
+
