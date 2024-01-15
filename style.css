@@ -1,10 +1,13 @@
 header {
+  display: block;
     width: 100%;
     height: 15%;
-    border: 5px solid rgb(88, 139, 147);
-    padding: 5px solid rgb(88, 139, 147);
     background-color:rgb(88, 139, 147);
   }
+
+body{
+  background-color: black;
+}
 
 #avatar
 
@@ -22,13 +25,13 @@ header {
   li {font-family: bahnschrift;font-size: 11px}
 
   #exp, #skill, #school {
-    border:5px solid grey;
+    border:5px solid white;
+    background-color: white;
     border-radius: 25px;
     width: 25%;
   }
   
   #content{
-    background: #000;
   display: flex;
   flex-flow:row wrap;
   justify-content: space-around;
