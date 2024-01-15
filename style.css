@@ -1,38 +1,76 @@
 header {
-  display: block;
-    width: 100%;
-    height: 15%;
-    background-color:rgb(88, 139, 147);
-  }
-
-body{
-  background-color: black;
+  display: flex;
+  background-color: lightseagreen;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
 }
 
-#avatar
+body {
+  background-color: lightgrey;
+  font-family: bahnschrift;
+  margin: 0;
+}
 
-  h1 {
-    font-family: bahnschrift;
-    font-size: 30px;
-    color: white;
+.icon{
+  width: 20%;
+}
 
-  }
-
-  h2 {font-family: bahnschrift;font-size: 19px; text-align: center}
-  h3 {font-family: bahnschrift;font-size: 16px}
-  h4 {font-family: bahnschrift;font-size: 13px}
-  section p {font-family: bahnschrift;font-size:11px}
-  li {font-family: bahnschrift;font-size: 11px}
-
-  #exp, #skill, #school {
-    border:5px solid white;
-    background-color: white;
-    border-radius: 25px;
-    width: 25%;
-  }
-  
-  #content{
-  display: flex;
+#logos{
+  display:flex;
   flex-flow:row wrap;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+#avatar{
+  width: 5%;
+  height: 5%;
+}
+
+
+h1 {
+  font-size: 2.5vw;
+  padding-left: 2%;
+  color: white;
+}
+
+h2 {
+  font-size: 1.7vw;
+  text-align: center;
+  padding-left: 2%;
+}
+h3 {
+  font-size: 1.1vw;
+  margin-bottom: 0.5%;
+  padding-left: 2%;
+}
+h4 {
+  font-size: 0.8vw;
+  margin: 0%;
+  padding-left: 2%;
+}
+section p {
+  font-size: 0.9vw;
+  padding-left: 2%;
+}
+li {
+  font-size: 1.5vw;
+  padding-left: 2%;
+}
+
+#exp,
+#skill,
+#school {
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 25px;
+  width: 27.5%;
+  margin-top: 2%;
+}
+
+#content {
+  display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
