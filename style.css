@@ -76,6 +76,10 @@ li {
 }
 
 @media only screen and (max-width: 800px) {
+
+  body{
+    font-family: Rubik;
+  }
   #content {
     display: flex;
     flex-flow: column wrap;
