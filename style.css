@@ -4,6 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
+  width: 100%;
 }
 
 body {
@@ -72,4 +73,13 @@ li {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  #content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
+
 }
