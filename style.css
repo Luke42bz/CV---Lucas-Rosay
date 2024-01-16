@@ -75,7 +75,7 @@ li {
   justify-content: space-around;
 }
 
-@media only screen {
+@media only screen and (max-width: 800px) {
   #content {
     display: flex;
     flex-flow: column wrap;
