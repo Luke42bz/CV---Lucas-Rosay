@@ -76,9 +76,14 @@ li {
 }
 
 @media only screen and (max-width: 800px) {
-
+  #avatar{
+    #avatar {
+      width: 15%;
+      height: 15%;
+    }
+  }
   body{
-    font-family: Rubik;
+    font-family: Bahnschrift;
   }
   #content {
     display: flex;
