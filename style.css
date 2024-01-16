@@ -12,22 +12,21 @@ body {
   margin: 0;
 }
 
-.icon{
+.icon {
   width: 20%;
 }
 
-#logos{
-  display:flex;
-  flex-flow:row wrap;
+#logos {
+  display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
   margin: 5%;
 }
 
-#avatar{
+#avatar {
   width: 5%;
   height: 5%;
 }
-
 
 h1 {
   font-size: 2.5vw;
